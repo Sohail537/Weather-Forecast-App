@@ -1,0 +1,1 @@
+This is a Weather Forecast Application using an API. I have developed this application using HTML, CSS, and JavaScript. My main goal was to utilize a Weather API to fetch real-time weather data and present it in a user-friendly manner.

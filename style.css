@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.609);
+    color: white;
+}
+
+.container{
+    padding: 15px 30px;
+    width: 350px;
+    margin: auto;
+    border: none;
+    border-radius: 20px;
+    background: linear-gradient(to right bottom, rgb(208, 198, 198), rgba(169, 227, 241, 0.652), rgb(74, 121, 168));
+}
+
+.header{
+    height: 20%;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#inputid{
+    border-radius: 20px;
+    padding: 8px 15px;
+    border: none;
+    outline: none;
+}
+
+#inputid::placeholder{
+    color: black;
+    opacity: 0.8;
+}
+
+.header button{
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.header button img{
+    width: 15px;
+}
+
+.error{
+    text-align: left;
+    margin-left: 36px;
+    font-size: 14px;
+    margin-top: 10px;
+    display: none;
+}
+
+.main{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.main img{
+    height: 150px;
+    width: auto;
+}
+
+.main h1{
+    font-size: 30px;
+}
+
+.main h2{
+    font-size: 20px;
+}
+
+.footer{
+    width: 240px;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.humidity img{
+    height: 25px;
+    width: auto;
+}
+
+.windspeed img{
+    height: 30px;
+    width: auto;
+}
+
+.humidity{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.windspeed{
+    width: 47%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.humidity p, .windspeed p{
+    font-size: 12px;
+}
+
+.main{
+    display: none;
+}
